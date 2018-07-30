@@ -18,8 +18,8 @@ public class main {
 
 
         Median4 m4 = new Median4();
-        int[] n1 = {1,2};
-        int[] n2 = {3};
+        int[] n1 = {2};
+        int[] n2 = {1,3};
 
         System.out.println(m4.findMedianSortedArrays(n1, n2));
     }
