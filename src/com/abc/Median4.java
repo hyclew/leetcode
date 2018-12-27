@@ -1,7 +1,7 @@
 package com.abc;
 
-public class Median4 {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+class Median4 {
+    double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
         int[] a = nums1;
         int[] b = nums2;
@@ -16,8 +16,7 @@ public class Median4 {
         int half = (m + n) / 2;
 
         int iMin = 0, iMax = m;
-        int i = 0;
-        int j = half - i;
+        int i,j;
 
         int maxLeft, minRight;
 
@@ -56,7 +55,7 @@ public class Median4 {
         //return 0;
     }
 
-    public double findMedianSortedArrays1(int[] A, int[] B) {
+/*    public double findMedianSortedArrays1(int[] A, int[] B) {
         int m = A.length;
         int n = B.length;
         if (m > n) { // to ensure m<=n
@@ -101,7 +100,7 @@ public class Median4 {
             }
         }
         return 0.0;
-    }
+    }*/
 }
 
 
