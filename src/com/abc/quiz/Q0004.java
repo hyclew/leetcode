@@ -1,7 +1,7 @@
-package com.abc;
+package com.abc.quiz;
 
-class Median4 {
-    double findMedianSortedArrays(int[] nums1, int[] nums2) {
+public class Q0004 {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
         int[] a = nums1;
         int[] b = nums2;

@@ -1,15 +1,15 @@
-package com.abc;
+package com.abc.quiz;
 
-public class AddTwoNumbers2 {
+import com.abc.util.ListNode;
+
+public class Q0002 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         if (l1 == null) return l2;
         if (l2 == null) return l1;
 
-        ListNode l3Head = null;
-
-        ListNode p = l1, q = l2, l = null, curr = null;
+        ListNode p = l1, q = l2, l = null, l3Head, curr;
         int sum = 0;
         int carry = 0;
 

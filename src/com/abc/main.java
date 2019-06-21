@@ -1,5 +1,7 @@
 package com.abc;
 
+import com.abc.quiz.Q0004;
+
 public class main {
     public static void main(String[] args) {
 
@@ -17,10 +19,11 @@ public class main {
 //        t.addTwoNumbers(l1, l2);
 
 
-        Median4 m4 = new Median4();
+        Q0004 q00044 = new Q0004();
         int[] n1 = {2};
         int[] n2 = {1,3};
 
-        System.out.println(m4.findMedianSortedArrays(n1, n2));
+        System.out.println(q00044.findMedianSortedArrays(n1, n2));
+
     }
 }
