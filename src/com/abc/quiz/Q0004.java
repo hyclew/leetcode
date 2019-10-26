@@ -1,6 +1,16 @@
 package com.abc.quiz;
 
 public class Q0004 {
+    public static void main(String[] args) {
+
+        Q0004 q00044 = new Q0004();
+        int[] n1 = {2};
+        int[] n2 = {1, 3};
+
+        System.out.println(q00044.findMedianSortedArrays(n1, n2));
+
+    }
+
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
         int[] a = nums1;
@@ -16,7 +26,7 @@ public class Q0004 {
         int half = (m + n) / 2;
 
         int iMin = 0, iMax = m;
-        int i,j;
+        int i, j;
 
         int maxLeft, minRight;
 

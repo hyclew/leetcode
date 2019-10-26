@@ -4,6 +4,25 @@ import com.abc.util.ListNode;
 
 public class Q0002 {
 
+    public static void main(String[] args) {
+
+        Q0002 t = new Q0002();
+
+        ListNode l1, l1n, l2, l2n;
+        l1 = new ListNode(2);l1n = l1;
+        l1n.next = new ListNode(4);l1n=l1n.next;
+        l1n.next = new ListNode(3);l1n=l1n.next;
+
+        l2 = new ListNode(5);l2n = l2;
+        l2n.next = new ListNode(6);l2n=l2n.next;
+        l2n.next = new ListNode(4);l2n=l2n.next;
+
+        t.addTwoNumbers(l1, l2);
+
+        System.out.println(t);
+
+    }
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         if (l1 == null) return l2;
